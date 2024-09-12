@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 1000px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+.recent-adds h3{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.recent-adds .recent-cap{
+    font-size: 17px;
+}
+
+.recent-imgs img{
+    height: 300px;
+    width: 400px;
+    object-fit: fill;
+    border-radius: 20px;
+}
+
+.recent-imgs{
+    display: flex;
+}
+
+.recent-one, .recent-two, .recent-three{
+    margin: 20px 50px 20px 0px;
+}
+
+.room-price{
+    font-size: 20px;
+    margin: 7px;
+}
+
+.room-cap{
+    margin: 7px;
+    font-size: 17px;
+}
+
+.recent-right-icon{
+    position: relative;
+    top: 140px;
+    right: 70px;
+}
+
+/* features */
+
+.features h3{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.feature-cap{
+    font-size: 17px;
+}
+
+.feature-imgs{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.feature-imgs img{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px 50px 20px 0px; 
+} 
+
+.feature-right-icon{
+    position: relative;
+    top: 145px;
+    right: 70px;
+}
+
+
+/* recommeded sellers */
+.rec-sellers h3{
+    margin: 30px 0 5px 0px;
+    font-size: 30px;
+}
+
+.rec-cap{
+    font-size: 17px;
+}
+
+.rec-sellers-list{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rec-seller a{
+    height: 100px;
+    width: 360px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: 30px 40px 0px 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.rec-seller img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    align-self: center;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+}
+
+.seller-details{
+    font-size: 13px;
+}
+.seller-details h4{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.seller-tag, .seller-tag2{
+    background-color: rgb(246, 194, 203);
+    width: 35%;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+}
+.seller-tag2{
+    position: relative;
+    left: 90px;
+    bottom: 30.3px;
+}
+
+.exp{
+    position: relative;
+    bottom: 25px;
+    margin-left: 5px;
+}
+
+.he-pro{
+    font-size: 10px;
+    font-weight: 600;
+    height: 18px;
+    width: 120px;
+    padding: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    position: relative;
+    left: 160px;
+    bottom: 15px;
+} 
+
+.he{
+    font-size: 10px;
+    font-weight: 600;
+    height: 18px;
+    width: 50px;
+    padding: 7px;
+    background-color:rgb(177, 234, 153);
+    color: black;
+    border-radius: 5px;
+    align-content: center;
+    position: relative;
+    left: 180px;
+    bottom: 15px;   
+}
+
+.he-right-icon{
+    position: relative;
+    right: 52px;
+    top: 65px;
+}
