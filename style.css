@@ -4,18 +4,19 @@
 }
 
 .container{
-    height: 1000px;
+    height: 90%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 130px;
 }
 
 .recent-adds h3{
     margin-bottom: 5px;
+    margin-left: 50px;
     font-size: 30px;
 }
 
 .recent-adds .recent-cap{
+    margin-left: 50px;
     font-size: 17px;
 }
 
@@ -24,6 +25,7 @@
     width: 400px;
     object-fit: fill;
     border-radius: 20px;
+    margin-left: 50px;
 }
 
 .recent-imgs{
@@ -31,23 +33,25 @@
 }
 
 .recent-one, .recent-two, .recent-three{
-    margin: 20px 50px 20px 0px;
+    margin: 20px 25px 20px 25px;
 }
 
 .room-price{
     font-size: 20px;
     margin: 7px;
+    margin-left: 50px;
 }
 
 .room-cap{
     margin: 7px;
+    margin-left: 50px;
     font-size: 17px;
 }
 
 .recent-right-icon{
     position: relative;
     top: 140px;
-    right: 70px;
+    right: 45px;
 }
 
 /* features */
@@ -55,14 +59,17 @@
 .features h3{
     margin-bottom: 5px;
     font-size: 30px;
+    margin-left: 50px;
 }
 
-.feature-cap{
+.feature-caption{
     font-size: 17px;
+    margin-left: 50px;
 }
 
 .feature-imgs{
     display: flex;
+    margin-left: 50px;
     /* flex-wrap: wrap; */
 }
 
@@ -70,13 +77,16 @@
     height: 300px;
     width: 400px;
     border-radius: 20px;
-    margin: 20px 50px 20px 0px; 
+    margin: 20px 40px 20px 40px; 
 } 
 
 .feature-right-icon{
     position: relative;
     top: 145px;
-    right: 70px;
+    right: 60px;
+}
+.feature-cap{
+    margin-left: 40px;
 }
 
 
@@ -84,10 +94,11 @@
 .rec-sellers h3{
     margin: 30px 0 5px 0px;
     font-size: 30px;
+    margin-left: 50px;
 }
-
 .rec-cap{
     font-size: 17px;
+    margin-left: 50px;
 }
 
 .rec-sellers-list{
@@ -95,6 +106,7 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .rec-seller a{
@@ -103,7 +115,7 @@
     text-decoration: none;
     color: black;
     display: flex;
-    margin: 30px 40px 0px 20px;
+    margin: 30px 40px 0px 40px;
     border: 1px solid red;
     border-radius: 15px;
 }
@@ -178,4 +190,87 @@
     position: relative;
     right: 52px;
     top: 65px;
+}
+
+/* Shalini's part */
+.footer{
+    /* margin-right: 100px; */
+    background-color: #24262b;
+    padding-top: 60px;
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_logo{
+    margin-left: 710px;
+	margin-bottom: 20px;
+}
+
+.other-searches h2{
+    margin: 50px 0 5px 50px;
+}
+.other-searches h3{
+    margin: 10px 0 10px 50px;
+}
+.search{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+	padding-bottom: 60px;
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+.row{
+    justify-content: center;
+}
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+    margin: 60px 50px 25px 50px;
+	/* margin-bottom: 35px; */
+	/* margin-left: 110px; */
+	/* margin-top: 60px; */
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-underline-offset: 0.5em;
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+	color: #ffffff;
+	font-weight: 300;
+	color: #bbbbbb;
+    /* margin-top: 30px; */
+    margin: 60px 50px 0px 50px;
+	transition: all 0.3s ease;
+	/* margin-left: 112px; */
+}
+
+
+.socialicons{
+    display:flex;
+    justify-content: center;
+}
+
+.socialicons a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #ffffff;
+	margin: 10px;
+	border-radius: 50%;
 }
