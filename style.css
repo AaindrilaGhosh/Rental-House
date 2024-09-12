@@ -3,6 +3,130 @@
     padding: 0;
 }
 
+/* aishi's part */
+.header{
+ height: 100px;
+}
+
+.logo img{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height:70px;
+    border-radius: 50px;
+}
+
+.logo{
+    display: flex;
+}
+.nav-bar a{
+    color: black;
+   padding-inline: 30px;
+   font-size: 15px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+.nav-bar{
+    padding-top: 40px;
+    padding-left: 650px;
+}
+h1{
+    margin-left: 370px;
+    padding-top: 25px;
+    color: yellow;
+    font-size: 45px;
+}
+.search-bar{
+    border: 1px solid  rgba(238, 238, 238, 0.836);
+    cursor: text;
+    border-radius: 30px;
+    height: 48px;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color:white;
+}
+#search{
+    height: 45px;
+    width: 569px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    opacity: 0.7;
+    font-size: 15px;
+    padding-left: 130px;
+   
+}
+
+input{
+    padding-top: 3px;
+    padding-left: 10px;
+}
+#click{
+   margin-left: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color:wheat;
+    border: 1px solid black;
+
+}
+.search-button{
+    position: relative;
+    bottom: 45px;
+    left: 390px;
+}
+
+.option{
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-right: 490px;
+    padding-left: 50px;
+    height: 20px;
+    width: 560px;
+    background-color: lightgray;
+    border-radius: 35px;
+}
+.option a{
+    font-size: 15px;
+    color: rgb(39, 22, 22);
+   padding-left: 50px;
+}
+#location{
+    font-size: 15px;
+   border: none;
+ 
+}
+.place{
+    padding-left: 300px;
+   position: relative;
+   bottom: 75px;
+   left: 30px;
+
+}
+.title{
+    height: 450px;
+}
+
+.lower-nav{
+    padding-left: 580px;
+    padding-top: 180px;
+    color: rgb(255, 255, 255);
+   
+}
+.lower-nav a{
+    font-size: 10px;
+    color: rgb(164, 230, 230);
+}
+.body-cont{
+    background-image: url(1.png);
+}
+
+
+/* my part */
 .container{
     height: 90%;
     width: 100%;
@@ -10,6 +134,7 @@
 }
 
 .recent-adds h3{
+    margin-top: 40px;
     margin-bottom: 5px;
     margin-left: 50px;
     font-size: 30px;
@@ -70,7 +195,6 @@
 .feature-imgs{
     display: flex;
     margin-left: 50px;
-    /* flex-wrap: wrap; */
 }
 
 .feature-imgs img{
@@ -125,7 +249,6 @@
     width: 80px;
     border-radius: 50%;
     align-self: center;
-    /* box-shadow: 1px 1px 1px 1px gray; */
 }
 
 .seller-details{
@@ -194,7 +317,6 @@
 
 /* Shalini's part */
 .footer{
-    /* margin-right: 100px; */
     background-color: #24262b;
     padding-top: 60px;
     height: 500px;
@@ -241,9 +363,6 @@ ul{
 	font-size: 18px;
 	color: #ffffff;
     margin: 60px 50px 25px 50px;
-	/* margin-bottom: 35px; */
-	/* margin-left: 110px; */
-	/* margin-top: 60px; */
 	text-decoration: underline;
 	text-decoration-color: red;
 	text-underline-offset: 0.5em;
@@ -255,10 +374,8 @@ ul{
 	color: #ffffff;
 	font-weight: 300;
 	color: #bbbbbb;
-    /* margin-top: 30px; */
     margin: 60px 50px 0px 50px;
 	transition: all 0.3s ease;
-	/* margin-left: 112px; */
 }
 
 
