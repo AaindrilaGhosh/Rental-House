@@ -78,6 +78,7 @@ input{
     position: relative;
     bottom: 45px;
     left: 390px;
+    display: inline;
 }
 
 .option{
@@ -101,10 +102,10 @@ input{
  
 }
 .place{
-    padding-left: 300px;
    position: relative;
-   bottom: 75px;
-   left: 30px;
+   bottom: 45px;
+   right: 260px;
+   display: inline;
 
 }
 .title{
@@ -123,6 +124,7 @@ input{
 }
 .body-cont{
     background-image: url(1.png);
+    /* width: 100%; */
 }
 
 
@@ -327,6 +329,11 @@ input{
 .footer_logo{
     margin-left: 710px;
 	margin-bottom: 20px;
+    /* border-radius: 50%; */
+}
+
+.footer_logo img{
+    border-radius: 50%;
 }
 
 .other-searches h2{

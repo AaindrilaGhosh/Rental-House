@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: rgb(155, 153, 211); */
+    background-color: #6482AD;
+    color: white;
+}
+
+.reg-cont{
+    background-color: #E5DDC5;
+    height: 450px;
+    width: 380px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    position: relative;
+    left: 600px;
+    top: 160px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.reg-head{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#name, #pswd, #email{
+    height: 35px;
+    width: 255px;
+    margin: 35px 0px 0px 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding-left: 15px;
+}
+
+i{
+    position: relative;
+    right: 35px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.agreement{
+    display: flex;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.agreement p{
+    margin-left: 10px;
+}
+
+#agreement{
+    display:inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#reg{
+    width: 150px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 40px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.login{
+    margin-left: 80px;
+    margin-top: 10px;
+}
